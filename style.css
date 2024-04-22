@@ -1,0 +1,164 @@
+body {
+    background-color: #5E5E5E;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23737373' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23878787' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%239c9c9c' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23b0b0b0' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23c5c5c5' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23d9d9d9' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23EEE' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.difficulty-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.difficulty-card {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.difficulty-card:hover {
+    background-color: #eee;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.container h1 {
+    font-size: 95px;
+    font-family: 'SamuraiBlast', sans-serif;
+    font-weight: 10;
+}
+
+#value {
+    font-size: 140px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-container button {
+    border-radius: 10px;
+    padding: 6px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    border: solid;
+    margin: 10px;
+    cursor: pointer;
+}
+  
+#message-container::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+}  
+
+#message-container {
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(36, 36, 88);
+    font-weight: bold;
+    width: 100%;
+}
+
+.btn-increase:hover {
+    background-color: rgb(128, 255, 128);
+}
+
+.btn-increase:active {
+    background-color: rgb(53, 255, 53);
+}
+
+.btn-decrease:hover {
+    background-color: rgb(255, 131, 131);
+}
+
+.btn-decrease:active {
+    background-color: rgb(255, 43, 43);
+}
+
+.btn-submit:hover {
+    background-color: rgb(253, 255, 128);
+}
+
+.btn-submit:active {
+    background-color: rgb(253, 255, 53);
+}
+
+.difficulty-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.difficulty-card {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.difficulty-card.selected {
+    background-color: lightgreen;
+}
+
+#medium.selected {
+    background-color: rgb(255, 255, 165);
+}
+
+#hard.selected {
+    background-color: lightcoral;
+}
+
+#number-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.number-card {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.number-card:hover {
+    background-color: #eee;
+}
+
+.number-card.clear {
+    background-color: lightcoral;
+}
+
+.number-card.clear:hover {
+    background-color: rgb(255, 165, 165);
+}
+
+.number-card.clear:active {
+    background-color: rgb(255, 98, 98);
+}
+
+@font-face {
+    font-family: 'SamuraiBlast';
+    src: url('SamuraiBlast.woff') format('woff');
+}

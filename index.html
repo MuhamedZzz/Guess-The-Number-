@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <h1>
+            Guess The Number!
+        </h1>
+        <div class="difficulty-container">
+            <div class="difficulty-card selected" id="easy"><strong>Easy</strong> <br> (0 to 10)</div>
+            <div class="difficulty-card" id="medium"><strong>Medium</strong> <br> (0 to 100)</div>
+            <div class="difficulty-card" id="hard"><strong>Hard</strong> <br> (-100 to 100)</div>
+        </div>
+        <span id="value">
+            0
+        </span>
+        <div class="button-container">
+            <button class="btn-decrease">
+                Decrease
+            </button>
+
+            <button class="btn-submit">
+                Guess
+            </button>
+            
+            <button class="btn-increase">
+                Increase
+            </button>
+        </div>
+        <div id="number-container">
+            <div class="number-card">0</div>
+            <div class="number-card">1</div>
+            <div class="number-card">2</div>
+            <div class="number-card">3</div>
+            <div class="number-card">4</div>
+            <div class="number-card">5</div>
+            <div class="number-card">6</div>
+            <div class="number-card">7</div>
+            <div class="number-card">8</div>
+            <div class="number-card">9</div>
+        </div>
+        <div id="message-container"></div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
