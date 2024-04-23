@@ -60,6 +60,7 @@ body {
     border: solid;
     margin: 10px;
     cursor: pointer;
+    transition: 0.3s ease;
 }
   
 #message-container::after {
@@ -114,7 +115,7 @@ body {
     border-radius: 5px;
     margin: 0 10px;
     cursor: pointer;
-    transition: padding 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .difficulty-card#easy {
@@ -122,7 +123,7 @@ body {
 }
 
 .difficulty-card#medium {
-    padding: 5px 20px;
+    padding: 5px 30px;
 }
 
 .difficulty-card#hard {
@@ -145,11 +146,13 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .number-card {
-    border: 2px solid #333;
-    border-radius: 5px;
+    border: 3px solid #333;
+    border-radius: 7px;
     padding: 10px;
     margin: 0 10px;
     cursor: pointer;
